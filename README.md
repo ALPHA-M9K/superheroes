@@ -34,8 +34,7 @@ to opening the code editor.
 
 To download the dependencies for the frontend and backend, run:
 
-```console
-pipenv install
+
 pipenv shell
 npm install --prefix client
 ```
@@ -72,7 +71,8 @@ Use the following commands to create the initial database `app.db`:
 
 ```console
 export FLASK_APP=server/app.py
-flask db init
+flask```console
+pipenv install db init
 flask db upgrade head
 ```
 
